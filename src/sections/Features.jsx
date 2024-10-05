@@ -26,7 +26,8 @@ const Features = () => {
                              <p className="caption mb-5 max-md:mb-6">{caption}</p> 
                              <h2 className="max-w-400 mb-7 h3 text-p4 max-md:mb-6 max-md:h5">{title}</h2>       
                              <p className="mb-11 body-1 max-md:body-3">{text} </p>
-                             <Button icon={button.icon}>{button.title} </Button>
+                             <a href={button.href}>
+                             <Button icon={button.icon}>{button.title} </Button> </a>
                         </div>
                  ))}
                  <ul className="relative flex justify-around flex-grow px-[5%] border-2 border-s3 rounded-7xl max-md:hidden">

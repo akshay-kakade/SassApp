@@ -4,10 +4,11 @@ export const features = [
       icon: '/images/feature-1.png',
       caption: 'Easy integration',
       title: 'Work smarter not harder',
-      text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+      text: "With Cloe, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
       button: {
         icon: '/images/magictouch.svg',
         title: 'Watch the demo',
+        href:'https://youtu.be/kc-m9zjbc4Q'
       },
     },
     {
@@ -15,10 +16,11 @@ export const features = [
       icon: '/images/feature-2.png',
       caption: 'Secure & trustworthy',
       title: 'Sleep easy, we got your back',
-      text: 'Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.',
+      text: 'Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Cloe helps keeps your information secure and locked up tighter than Fort Knox.',
       button: {
         icon: '/images/docs.svg',
         title: 'Read the docs',
+        href: 'https://github.com/akshay-kakade/SassApp'
       },
     },
   ];
@@ -49,13 +51,13 @@ export const features = [
   export const faq = [
     {
       id: '0',
-      question: 'How easy is it to setup Xora?',
+      question: 'How easy is it to setup Cloe?',
       answer:
         'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
     },
     {
       id: '1',
-      question: 'Can I integrate Xora with other platforms?',
+      question: 'Can I integrate Cloe with other platforms?',
       answer:
         'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
     },
@@ -164,7 +166,7 @@ export const features = [
       role: 'Globalnomads',
       avatarUrl: '/images/testimonials/jessica-saunders.png',
       comment:
-        "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+        "Cloe's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
     },
     {
       id: '1',
@@ -196,7 +198,7 @@ export const features = [
       role: 'Floclips',
       avatarUrl: '/images/testimonials/becky-snider.png',
       comment:
-        "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
+        "Switched to Cloe last month, and I'm already seeing results. Best decision for our team!",
     },
     {
       id: '5',
@@ -404,26 +406,26 @@ export const features = [
   export const socials = [
     {
       id: '0',
-      title: 'x',
-      icon: '/images/socials/x.svg',
-      url: '#',
+      title: 'Youtube',
+      icon: '/images/socials/youtube.svg',
+      url: 'https://www.youtube.com/@itsgametimebudy',
     },
     {
       id: '1',
-      title: 'Threads',
-      icon: '/images/socials/threads.svg',
-      url: '#',
+      title: 'GitHub',
+      icon: '/images/socials/github.svg',
+      url: 'https://github.com/akshay-kakade',
     },
     {
       id: '2',
       title: 'Instagram',
       icon: '/images/socials/instagram.svg',
-      url: '#',
+      url: 'https://www.instagram.com/maverick_7821/?igsh=MTJiN3M3NDNjM2JkcA%3D%3D',
     },
     {
       id: '3',
-      title: 'Discord',
-      icon: '/images/socials/discord.svg',
-      url: '#',
+      title: 'Linkdin',
+      icon: '/images/socials/linkedin.svg',
+      url: 'https://www.linkedin.com/in/akshay-kakade-878399287/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
   ];
